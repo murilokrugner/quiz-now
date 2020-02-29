@@ -14,10 +14,14 @@ export const FooterBox = styled.div`
   div.signup {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 100%;
+
+    span {
+      color: #fff;
+    }
 
     button {
       width: 70px;

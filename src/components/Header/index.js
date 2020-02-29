@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import Dropdown from "react-bootstrap/Dropdown";
 import Profile from "../../assets/profile.jpg";
@@ -9,7 +10,9 @@ export default function Header() {
     <Container>
       <Box>
         <div className="title">
-          <h1>Quiz Now</h1>
+          <Link to="/">
+            <h1>Quiz Now</h1>
+          </Link>
         </div>
 
         <div className="avatar">

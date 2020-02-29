@@ -6,6 +6,7 @@ export default function Footer() {
     <Container>
       <FooterBox>
         <div className="signup">
+          <span>copyright - Knowledge | CEO - Murilo Krugner</span>
           <button type="button">SAIR</button>
         </div>
       </FooterBox>

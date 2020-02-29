@@ -25,7 +25,7 @@ export const Box = styled.div`
   display: flex;
   margin: 50px;
   width: 300px;
-  height: 300px;
+  height: 500px;
   border-radius: 8px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   background-color: #ffffff;
@@ -35,12 +35,20 @@ export const Box = styled.div`
     display: flex;
     width: 100%;
     flex-direction: column;
-    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
     align-items: center;
 
+    strong {
+      display: flex;
+      justify-content: center;
+      margin-left: 10px;
+    }
+
     img {
-      width: 210px;
-      height: 210px;
+      width: 300px;
+      height: 300px;
 
       border: 0px;
       border-radius: 50%;
@@ -51,18 +59,24 @@ export const Box = styled.div`
       font-weight: bold;
     }
 
-    button {
-      border: 0px;
-      border-radius: 30px;
+    div.divbutton {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
 
-      width: 100px;
-      height: 30px;
+      button {
+        border: 0px;
+        border-radius: 30px;
 
-      background: #49aeeb;
-      color: #ffffff;
+        width: 130px;
+        height: 50px;
 
-      font-weight: bold;
-      font-size: 15px;
+        background: #49aeeb;
+        color: #ffffff;
+
+        font-weight: bold;
+        font-size: 15px;
+      }
     }
   }
 `;
