@@ -1,0 +1,14 @@
+import React from "react";
+import { Container, FooterBox } from "./styles";
+
+export default function Footer() {
+  return (
+    <Container>
+      <FooterBox>
+        <div className="signup">
+          <button type="button">SAIR</button>
+        </div>
+      </FooterBox>
+    </Container>
+  );
+}
